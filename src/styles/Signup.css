@@ -1,0 +1,27 @@
+body {
+    background-color: #ff3e00; /* Adjust the color to match your design */
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.form-control, .btn {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+.btn-outline-primary, .btn-outline-danger {
+    border-width: 2px;
+}
+
+/* You can add more styles as needed */
