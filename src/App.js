@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Signup />} />
+        <Route path="/Signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
 
         {isAuthenticated && (
