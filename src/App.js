@@ -15,12 +15,12 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/Signup" element={<Signup />} />
+        <Route path="/filemanager" element={<Signup />} />
         <Route path="/login" element={<Login />} />
 
         {isAuthenticated && (
           <>
-            <Route path="/filemanager" element={<FileManagerHome />} />
+            <Route path="/fileBrowser" element={<FileManagerHome />} />
             <Route path="/home" element={<Folders />} />
           </>
         )}
